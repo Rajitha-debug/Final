@@ -1,0 +1,24 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": ",npx cypress run",
+    "Spec": "npx cypress run -- spec= 'cypress/Integrations/Ex/Bascis.js '",
+    "Browser":"npx cypress run -- Browser Chrome",
+    "Headed":"npx cypress run -- Browser Chrome --headed",
+    "Dash":"npx cypress run --record --key 7221523f-de29-4d0d-b79f-3c1590694c32"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.13.2",
+    "cypress-iframe": "^1.0.1",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
